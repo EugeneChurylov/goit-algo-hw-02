@@ -15,7 +15,6 @@ d = "Eugene"
 result = is_palindrome(d)
 
 if result:
-    print(f'Рядок "{d}" є паліндромом.')
+    print(f'The string "{d}" is a palindrome.')
 else:
-    print(f'Рядок "{d}" не є паліндромом.')
-
+    print(f'The string "{d}" is not a palindrome.')

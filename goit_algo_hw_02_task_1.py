@@ -7,7 +7,7 @@ def generate_request():
     global q
     q.put('Request')
     print("New request generated")
-    time.sleep(2)
+    time.sleep(1)
 
 def process_request():
     global q
@@ -16,7 +16,7 @@ def process_request():
         print(f"Processing: {request}")
     else:
         print("The queue is empty")
-    time.sleep(2)
+    time.sleep(1)
 
 while True:
     generate_request()
